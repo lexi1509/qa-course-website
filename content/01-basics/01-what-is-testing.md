@@ -1,15 +1,26 @@
 <style>
+/* Чёрный текст для лучшей читаемости в тёмной теме */
 [data-theme="dark"] .callout {
     background-color: rgba(30, 41, 59, 0.95) !important;
     border-left: 4px solid #818cf8 !important;
-    color: #f1f5f9 !important;
+    color: #000000 !important; /* ЧЁРНЫЙ ТЕКСТ */
 }
+
 [data-theme="dark"] .callout-title {
-    color: #c7d2fe !important;
+    color: #000000 !important; /* ЧЁРНЫЙ ЗАГОЛОВОК */
+    font-weight: 700 !important;
 }
+
+[data-theme="dark"] .callout-content,
+[data-theme="dark"] .callout-content p,
+[data-theme="dark"] .callout-content li,
 [data-theme="dark"] .callout p,
 [data-theme="dark"] .callout li {
-    color: #f1f5f9 !important;
+    color: #000000 !important; /* ЧЁРНЫЙ ТЕКСТ ВЕЗДЕ */
+}
+
+[data-theme="dark"] .callout input[type="checkbox"] {
+    accent-color: #818cf8 !important;
 }
 </style>
 # Что такое тестирование? 
