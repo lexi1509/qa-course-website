@@ -157,3 +157,9 @@ plugins:
     layout:
       position: footer
       priority: 50
+
+  - source: "@quartz-community/custom-head"
+    enabled: true
+    options:
+      customHead: |
+        <link rel="stylesheet" href="/static/custom.css">
